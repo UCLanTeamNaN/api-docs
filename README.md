@@ -1,6 +1,12 @@
 # Computing Challenge API Reference Documentation 2020
 A simpler, markdown version of the 4WC API documentation
 
+## Links
+
+- [Game Session Interaction](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md)
+- [Player Status Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md)
+- [Map Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/maps.md)
+
 Please see the README file within the docs/ directory for information about the API as a whole
 and then the specific files within docs/ for information about specific sections of the API.
 
