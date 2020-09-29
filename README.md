@@ -10,4 +10,6 @@ This documentation exists to make development of the 4WC app easier for those fa
 
 These docs have a lot less information than the official ones provided by UCLan, but can be used as a quick reference while creating your game.
 
+This documentation is based on the UCLan provided documents.
+
 Written by Cameron Fleming @ Team NaN for everyone.
