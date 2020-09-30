@@ -105,34 +105,43 @@ This response will be sent if you do not send the gameID parameter.
 
 This response is sent if the gameID doesn't exist, or the game is not in the correct state for going into game mode (i.e, the game has already started).
 
+# Get players in current game
 
-# Make Move
+Get's a list of all players in the a specific game/lobby session with their assigned colours. 
 
-This endpoint is used to move either the student or Mr. X to a new position. Can only be called on the players turn. 
+This does not require a session token, so can be used to get the status of any in-progress games.
 
-> NOTE: Validation checks should be made in the app, to avoid wasting calls to the API.
-
-**URL**: `/makeMove`
+**URL**: `/getPlayers`
 
 **Method**: `GET`
 
-**Session Required**: `YES!`
+**Session Required**: `No`
 
 **Parameters**:
 
 ```
-destination - Destination number
-ticket      - Ticket type [yellow, green or red]
+gameID - A valid gameID
 ```
+
 
 ## Success Response
 **Status Code**: `200 OK`
 
 **API Status Row**: `OK, Okay`
 
+**Response**: Expect a list of the following schema, after the status row;
+
+`Player Name, Player Colour`
+
+> NOTE: This response may be empty!
+
+> **NOTE: Invalid game IDs return OK with no results!**
+
 ## Failure Responses
 
-This part of the documentation has not yet been written, use the description section of the status row to debug your application.
+**API Status Row**: `"Missing required parameter","One of the required parameters is missing."`
+
+This response will be sent if you do not send the gameID parameter.
 
 # Get Game State
 
