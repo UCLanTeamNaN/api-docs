@@ -166,10 +166,12 @@ Get's the current status of the game, expected to be: `OPEN, FUGITIVE, DETECTIVE
 Game_State*, Round*, Message*
 ```
 
+> NOTE: The round number is not sent for some reason, expect an empty **STRING**
+> NOTE: The message element is not always included in a response, I assume this is an API issue that needs resolving.
+
 * - OPEN/FUGITIVE/DETECTIVE/OVER
-* - The current round number
-* - A possibly empty string
-    - It is not currently documented what this will be used for.
+* - The current round number, supposedly numeric but could be a string.
+* - A possibly empty string (It is not currently documented what this will be used for.)
 
 ## Failure Responses
 
