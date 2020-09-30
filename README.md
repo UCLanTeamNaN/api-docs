@@ -3,6 +3,7 @@ A simpler, markdown version of the 4WC API documentation
 
 ## Links
 
+- [API Overview](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/README.md)
 - [Game Session Interaction](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md)
 - [Player Status Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md)
 - [Map Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/maps.md)
