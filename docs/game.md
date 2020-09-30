@@ -39,9 +39,7 @@ This ID is used to allow other players to join your game session. You should dis
 
 ## Failure Responses
 
-**Status Code**: `400`
-
-**API Status Row**: `Error, Error`
+Error responses have not yet been documented.
 
 # Join Game
 
@@ -165,6 +163,5 @@ Game_State*, Round*, Message*
     - It is not currently documented what this will be used for.
 
 ## Failure Responses
-**Status Code**: `400`
 
-**API Status Row**: `Error, Error`
+Error responses have not yet been documented.

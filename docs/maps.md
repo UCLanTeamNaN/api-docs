@@ -16,7 +16,7 @@ This endpoint returns a list of maps that are currently available on the server.
 
 **API Status Row**: `OK, Okay`
 
-Expect the following schema:
+**Response**: Expect the following schema:
 `map_name, round_count, round_count*`
 
 > Note: There may (will) be multiple maps available, interate every row (minus the status row)
@@ -34,7 +34,8 @@ number of round options, i.e
 or 
 `test_map, 2`
 
+> HINT: Never assume the data from *this api* will be exactly how documented (a.k.a assume it'll send blank responses sometimes.)
+
 ## Failure Response
 
-There are no known failure responses minus those from Apache TomCat, which should only
-appear during outages of the API.
+Error responses have not yet been documented.

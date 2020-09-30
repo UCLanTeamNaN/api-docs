@@ -62,6 +62,5 @@ New Location, yellow*, green*, red*
 * Number of [colour] tickets available to the player.
 
 ## Failure Responses
-**Status Code**: `400`
 
-**API Status Row**: `Error, Error`
+Error responses have not yet been documented.
