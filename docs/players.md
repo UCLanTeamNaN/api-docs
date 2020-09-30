@@ -51,4 +51,6 @@ ticket      - Ticket type [yellow, green or red]
 
 ## Failure Responses
 
-This part of the documentation has not yet been written, use the description section of the status row to debug your application.
+**API Status Row**: `Finished, It is not your turn to move`
+
+Sent if the user is not able to move at the moment (waiting for another player to move)
