@@ -56,10 +56,8 @@ Get the position of the current player in their current game.
 **Response**: Expect the following schema on line 2 of the responseText
 
 ```
-New Location, yellow*, green*, red*
+Location
 ```
-
-* Number of [colour] tickets available to the player.
 
 ## Failure Responses
 
