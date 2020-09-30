@@ -167,6 +167,7 @@ Game_State*, Round*, Message*
 ```
 
 > NOTE: The round number is not sent for some reason, expect an empty **STRING**
+
 > NOTE: The message element is not always included in a response, I assume this is an API issue that needs resolving.
 
 * - OPEN/FUGITIVE/DETECTIVE/OVER
