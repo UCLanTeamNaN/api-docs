@@ -11,14 +11,17 @@ A simpler, markdown version of the 4WC API documentation
 
 ## Endpoints
 
-- [getMaps](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/maps.md#get-all-maps)
-- [createGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#create-game)
-- [joinGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#join-game)
-- [getPlayers](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-players-in-current-game)
-- [startGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#join-game)
-- [getGameState](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-game-state)
-- [makeMove](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#make-move)
-- [getPosition](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#get-position)
+- Maps
+    - [getMaps](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/maps.md#get-all-maps)
+- Game Sessions
+    - [createGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#create-game)
+    - [joinGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#join-game)
+    - [getPlayers](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-players-in-current-game)
+    - [startGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#join-game)
+    - [getGameState](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-game-state)
+- Player Controls/Data
+    - [makeMove](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#make-move)
+    - [getPosition](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#get-position)
 
 Please see the README file within the docs/ directory for information about the API as a whole
 and then the specific files within docs/ for information about specific sections of the API.
