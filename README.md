@@ -1,4 +1,4 @@
-# Computing Challenge API Reference Documentation 2020
+# UCLan 4WC API Documentation
 A simpler, markdown version of the 4WC API documentation
 
 ## Links
