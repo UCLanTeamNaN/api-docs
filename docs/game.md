@@ -17,6 +17,10 @@ numRounds  - Number of rounds requested for this game/map
 appID      - The name of your app, with team number.
 ```
 
+[More information about appID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#appid)
+
+[More information about playerName](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#playername)
+
 ## Success Response
 
 **Status Code**: `200 OK`
@@ -61,6 +65,10 @@ appID      - Your app's name, including team number
 gameID     - The ID of the game the user wishes to join
 ```
 
+[More information about appID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#appid)
+
+[More information about playerName](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#playername)
+
 ## Success Response
 **Status Code**: `200 OK`
 
@@ -94,6 +102,8 @@ This endpoint closes the lobby session and starts the game.
 ```
 gameID - A valid game ID
 ```
+
+[More information about gameID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#gameid)
 
 ## Success Response
 **Status Code**: `200 OK`
@@ -130,6 +140,7 @@ This does not require a session token, so can be used to get the status of any i
 gameID - A valid gameID
 ```
 
+[More information about gameID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#gameid)
 
 ## Success Response
 **Status Code**: `200 OK`
