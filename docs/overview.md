@@ -56,7 +56,17 @@ For example
 
 The joinGame and createGame endpoints require a playerName, this should be a non-empty string that identifies the player in the game.
 
-# Foot notes
+## Testing
+
+We recommend the following tools for testing with the API:
+
+- [Postman](https://www.postman.com/) - An API testing tool
+- [Insomnia Core](https://insomnia.rest/) - A light-weight API testing tool
+- [api-tool](https://github.com/UCLanTeamNaN/api-tool) - Our own 4WC testing tool
+
+You can also type URLs into Internet Explorer to test, but it's recommended you use one of the above tools.
+
+## Foot notes
 
 ## Failure messages
 
