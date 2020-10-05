@@ -39,7 +39,9 @@ This ID is used to allow other players to join your game session. You should dis
 
 ## Failure Responses
 
-Error responses have not yet been documented.
+**API Status Row**: `"Choose another name","That name is evil, it will break me!"`
+
+Sent if the user enters a name the server shouldn't handle (i.e, an SQL injection command)
 
 # Join Game
 
@@ -73,6 +75,9 @@ gameID     - The ID of the game the user wishes to join
 
 Sent when a user tries to join a game with a username that's already in use.
 
+**API Status Row**: `"Choose another name","That name is evil, it will break me!"`
+
+Sent if the user enters a name the server shouldn't handle (i.e, an SQL injection command)
 
 # Start Game
 
