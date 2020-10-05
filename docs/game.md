@@ -31,15 +31,10 @@ appID      - The name of your app, with team number.
 
 `SessionID, GameID`
 
-### SessionID
+[More information about sessionID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#sessionid)
 
-This is the session token you should use when your user interacts with the game. It must be sent with any endpoints that require authentication.
+[More information about gameID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#gameid)
 
-> NOTE: It's recommended to store this ID in permanent storage, in case the app is relaunched.
-
-### GameID
-
-This ID is used to allow other players to join your game session. You should display this to the user.
 
 ## Failure Responses
 
@@ -76,6 +71,7 @@ gameID     - The ID of the game the user wishes to join
 
 **Response**: Expect a session ID on the second row of the response.
 
+[More information about sessionID](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md#sessionid)
 
 ## Failure Responses
 
