@@ -1,6 +1,9 @@
 # UCLan 4WC API Documentation
 A simpler, markdown version of the 4WC API documentation
 
+These docs are not made to replace the provided docs, instead to compliment them with an easier to search, less information dense copy of the information provided.
+It includes some notes on implementation, but doesn't have instructions on using App Inventor with this API.
+
 ## Links
 
 - [API Overview](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md)
