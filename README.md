@@ -3,7 +3,7 @@ A simpler, markdown version of the 4WC API documentation
 
 ## Links
 
-- [API Overview](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/README.md)
+- [API Overview](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/overview.md)
 - [Game Session Interaction](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md)
 - [Player Status Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md)
 - [Map Information](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/maps.md)
@@ -23,8 +23,16 @@ A simpler, markdown version of the 4WC API documentation
     - [makeMove](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#make-move)
     - [getPosition](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#get-position)
 
-Please see the README file within the docs/ directory for information about the API as a whole
-and then the specific files within docs/ for information about specific sections of the API.
+## Overview
+
+The API is a simple CSV plain text based API built on Tomcat.
+This documentation assumes you already know the basic information about the API,
+such as what it's for, the base URLs & how the game works.
+
+These docs will (hopefully) be kept up-to-date during the challenge, providing more
+standardised documentation, that is more concise & easier to read at a glance.
+
+Written by Team Not a Name for All Teams.
 
 ## Attribution
 
