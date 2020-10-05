@@ -69,7 +69,9 @@ gameID     - The ID of the game the user wishes to join
 
 ## Failure Responses
 
-The failures are not documented, as I break it, I'll document them.
+**API Status Row**: `"Choose another name","The player name is already taken, choose another name."`
+
+Sent when a user tries to join a game with a username that's already in use.
 
 
 # Start Game
