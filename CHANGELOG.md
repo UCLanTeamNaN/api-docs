@@ -1,8 +1,9 @@
 # Week 3
 
-Matches official documentation version 2.0 - for Week 3 of the challenge.
+## Added endpoints
 
-This update is not yet complete.
+- Leaderboard
+    - getLeaderboard
 
 # Week 2 - Initial Release
 
