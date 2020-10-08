@@ -1,6 +1,6 @@
 # Get current challenge leaderboard
 
-This endpoint doesn't work yet, so hasn't been fully documented.
+Get's the current list of teams & their scores.
 
 **URL**: `/getLeaderboard`
 
@@ -13,4 +13,10 @@ This endpoint doesn't work yet, so hasn't been fully documented.
 
 **API Status Row**: `OK, Okay`
 
-**Response**: Unknown
+**Response**: Expect the following schema
+
+`team_name,team_points`
+
+Expect team_points to be a float.
+
+> NOTE: Some teams have been combined and or do not have their correct names in the database.
