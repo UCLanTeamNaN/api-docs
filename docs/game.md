@@ -191,3 +191,63 @@ Game_State*, Round*, Message*
 ## Failure Responses
 
 Error responses have not yet been documented.
+
+# Get Dr. X history log
+
+Get's the history of tickets Dr. X has used in this game.
+
+**URL**: `/getDrXLog`
+
+**Method**: `GET`
+
+**Session Requird**: `No`
+
+## Success Response
+**Status Code**: `200 OK`
+
+**API Status Row**: `OK, Okay`
+
+**Response**: Expect the following schema:
+
+```
+Ticket Colour
+```
+
+There will be multiple entries that make up the history of tickets Dr. X has used.
+
+## Failure Responses
+
+If the game is in progress, there shouldn't be any way to get an invalid response.
+
+# Get Player Locations & Ticket Counts
+
+Gets the list of players in the game, their location and tickets available.
+
+**URL**: `/getPlayerDetails`
+
+**Method**: `GET`
+
+**Session Required**: `No`
+
+## Success Response
+
+**Status Code**: `200 OK`
+
+**API Status Row**: `OK, Okay`
+
+**Response**: Expect the following schema:
+
+```
+Name
+Colour
+Location
+Yellow (tickets)
+Green (tickets)
+Red (tickets)
+```
+
+Expect this for every player in the game.
+
+## Failure Responses
+
+Failures have not yet been documented.
