@@ -83,10 +83,18 @@ You can also type URLs into Internet Explorer to test, but it's recommended you 
 
 ## Failure messages
 
-We haven't added all error messages to our system, but we'll work on adding them as we descover them. Pull requests are open if any other teams
-wish to contribute to this documentation.
+Some common failure messages include:
 
-
+- Invalid Player - The jsessionid is probably invalid
+- Missing Parameter - You've missed a parameter, check the docs again.
+- Error - Something is wrong on the server-side
+- Database Error - Server-side database issue.
+- Invalid Parameter - A value sent was invalid, so no data could be returned
+- Name unavailable - You're trying to use a username that's already in use.
+- Not in play - You're trying to move in a game that's either not started/not finished
+- Bad Move - You've requested a move that's not possible on the map with your current location.
+- Cannot join game - You're trying to join a game that doesn't have an open lobby
+- Cannot start game - You're trying to start a game with only 1 player.
 
 
 We hope this documentation & api-tool are useful to other teams, Team NaN.
