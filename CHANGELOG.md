@@ -4,6 +4,13 @@
 
 - Leaderboard
     - getLeaderboard
+- Game
+    - getDrXLog
+    - getPlayerDetails
+
+## Update Docs
+
+- Removed note on getPosition, the documentation was updated.
 
 # Week 2 - Initial Release
 
