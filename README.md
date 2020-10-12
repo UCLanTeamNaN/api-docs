@@ -22,6 +22,8 @@ It includes some notes on implementation, but doesn't have instructions on using
     - [getPlayers](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-players-in-current-game)
     - [startGame](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#join-game)
     - [getGameState](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-game-state)
+    - [getDrXLog](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-drx-history-log)
+    - [getPlayerDetails](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/game.md#get-player-locations-and-ticket-counts)
 - Player Controls/Data
     - [makeMove](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#make-move)
     - [getPosition](https://github.com/UCLanTeamNaN/api-docs/blob/master/docs/players.md#get-position)

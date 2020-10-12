@@ -192,7 +192,7 @@ Game_State*, Round*, Message*
 
 Error responses have not yet been documented.
 
-# Get Dr. X history log
+# Get DrX history log
 
 Get's the history of tickets Dr. X has used in this game.
 
