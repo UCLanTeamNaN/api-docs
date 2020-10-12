@@ -21,8 +21,6 @@ Get the position of the current player in their current game.
 Location
 ```
 
-> NOTE: The API is **supposed** to return the number of tickets the player has avaiable, this isn't the case... yet.
-
 ## Failure Responses
 
 Error responses have not yet been documented.
