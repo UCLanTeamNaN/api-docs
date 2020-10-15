@@ -177,16 +177,14 @@ Get's the current status of the game, expected to be: `OPEN, FUGITIVE, DETECTIVE
 **Response**: Expect the following schema on line 2:
 
 ```
-Game_State*, Round*, Message*
+Game_State*, Message*
 ```
 
-> NOTE: The round number is not sent for some reason, expect an empty **STRING**
-
-> NOTE: The message element is not always included in a response, I assume this is an API issue that needs resolving.
-
 * - OPEN/FUGITIVE/DETECTIVE/OVER
-* - The current round number, supposedly numeric but could be a string.
-* - A possibly empty string (It is not currently documented what this will be used for.)
+* - A possibly empty string
+    - Adds extra detail to game_state where present, i.e `Dr X has been caught.`
+
+> NOTE: This endpoint is supposed to return the round number (but doesn't)
 
 ## Failure Responses
 
